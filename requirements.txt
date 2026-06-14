@@ -1,0 +1,27 @@
+# MangaVoice Ultra v2.0 — Dependencies
+# pip install -r requirements.txt
+
+# ── Telegram ──────────────────────────────────────────────
+python-telegram-bot==21.*
+
+# ── AI Narration ──────────────────────────────────────────
+requests>=2.31.0
+
+# ── Free TTS (always works, no key needed) ────────────────
+gTTS>=2.3.2
+pydub>=0.25.1
+
+# ── Image Processing ──────────────────────────────────────
+Pillow>=10.3.0
+numpy>=1.24.0
+
+# ── Video Generation ──────────────────────────────────────
+moviepy>=2.0.0
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.9
+
+# ── PDF support ───────────────────────────────────────────
+PyMuPDF>=1.23.0
+
+# ── Optional: premium ElevenLabs voices ───────────────────
+# elevenlabs>=1.0.0
